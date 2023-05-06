@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Connexion.css">
+</head>
+
+<body>
+    <header>
+        <img src="/Pics/Logo/Logo.jpg" alt="My Website Logo"> <!-- Added logo here -->
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/About us/about.html">About</a></li>
+                <li><a href="/Contact us/contact.html">Contact</a></li>
+                <li><a href="/Connexion/Connexion.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="sign-up">
+        <h1>Sign up</h1>
+        <form action="connexion.php" method="post">
+            <div class="form-control">
+                <label>Do you already have an account?</label>
+                <a href="#">Login</a>
+            </div>
+            <div class="form-control">
+                <label>Full Name</label>
+                <input type="text" name="fullname" required>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" name="password" required>
+            </div>
+            <div class="form-control">
+                <label>Receive email updates</label>
+                <input type="checkbox" name="updates">
+            </div>
+            <button type="submit" class="btn">Sign up</button>
+        </form>
+        <div class="or-separator">
+            <span>or sign up with</span>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="/Connexion/fb.png" alt="Facebook"></a>
+            <a href="#"><img src="/Connexion/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="/Connexion/google.png" alt="Google"></a>
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+
+</html>

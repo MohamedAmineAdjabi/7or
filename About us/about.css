@@ -1,0 +1,181 @@
+
+        *{
+          font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+        }
+        /* CSS for the navigation bar */
+        header {
+          background-color: #333;
+          color: #fff;
+          padding: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          
+        }
+        header img{
+          width: 5.5%;
+          height: 7.5%;
+          padding: 3px;
+          border-radius: 20px;
+        }
+        header nav ul {
+          display: flex;
+          list-style: none;
+        }
+        
+        header nav ul li {
+          margin-right: 1rem;
+        }
+        
+        header nav ul li a {
+          color: #fff;
+          text-decoration: none;
+          padding: 0.5rem;
+        }
+        
+        /* CSS for the main section */
+        main {
+            margin-top: -40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+          }
+          
+          h1 {
+            font-size: 36px;
+            padding: 30px;
+          }
+          
+          main p {
+            font-size: 18px;
+            text-align: left;
+            margin: 30px auto;
+            width: 60%;
+          }
+          
+          main img {
+            width: 30%;
+            height: auto;
+            margin-top: 0%;
+            margin-right: 30px;
+          }
+          /*Style of the hr*/
+          hr {
+            border: none;
+            border-top: 3px solid #ccc;
+            margin: 50px auto;
+            width: 80%;
+          }
+           /* CSS for the members section */
+  /* Members */
+.members {
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .members h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .member {
+    display: inline-block;
+    text-align: center;
+    margin: 1em;
+    flex-basis: 22%;
+  }
+  
+  .member img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .member p {
+    margin: 0.5em 0;
+    font-weight: bold;
+  }
+  
+  .member .profession {
+    font-style: italic;
+  }
+  
+  .member .social-media {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .member .social-media:hover {
+    color: #666;
+  }
+  .members div .profil{
+    width: 200px;
+  }
+.member  a img{
+    width: 50px;
+  }
+  /*we are hiring*/
+  /* We are hiring section */
+.we-are-hiring {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .we-are-hiring .text {
+    max-width: 50%;
+    padding: 20px;
+  }
+  
+  .we-are-hiring .text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .we-are-hiring .text p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  
+  .we-are-hiring .image {
+    max-width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    
+  }
+  
+  .we-are-hiring .image img {
+    
+    height: auto;
+    display: block;
+    width: 70%;
+  }
+  .we-are-hiring button {
+    background-color: #333;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 50%;
+  }
+  
+  .we-are-hiring button:hover {
+    background-color: #006bb3;
+    color: #fff;
+  }
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }

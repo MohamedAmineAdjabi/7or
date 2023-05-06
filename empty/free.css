@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #EEE;
+}
+.page{
+    height: 100vh;
+    background-color:#333 ;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 50px auto 80px;
+    grid-template-areas: 
+    "logo logo nav nav nav nav nav nav nav nav "
+    "section  section section section section section section  aside aside aside "
+    "footer footer footer footer footer footer footer footer footer footer";
+}
+h2{
+    grid-area: logo;
+    background-color: red;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px; /* Change this value as needed */
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  .login-btn {
+    
+    margin-left: 600px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .login-btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  
+
+
+section{
+    grid-area: section;
+    background-color: #3b3535;
+    padding: 20px;
+}
+footer{
+    grid-area: footer;
+    background-color: pink;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.course-info {
+    text-align: center;
+}
+
+.course-info h3 {
+    margin-top: 0;
+}
+
+.course-video {
+    margin-top: 10px;
+}
+footer {
+    grid-area: footer;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
